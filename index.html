@@ -39,22 +39,10 @@
  ]
 }
 </script>
-<style>
-:root{--bg:#0b0b0c;--fg:#f4f1ea;--mut:#a9a49a;--acc:#d4a63a}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:880px;margin:0 auto;padding:56px 22px}
-h1{font-size:clamp(34px,7vw,64px);line-height:1.05;margin:0 0 10px;letter-spacing:-.02em}
-h1 span{color:var(--acc)}h2{font-size:22px;margin:48px 0 14px;color:var(--acc);text-transform:uppercase;letter-spacing:.08em}
-.tag{color:var(--mut);font-size:15px;margin-bottom:28px}
-.stats{display:flex;gap:28px;flex-wrap:wrap;margin:26px 0}.stats b{display:block;font-size:30px}.stats small{color:var(--mut)}
-ul.roster{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
-ul.roster li{border:1px solid #2a2a2c;border-radius:10px;padding:16px;font-weight:600}
-a{color:var(--fg)}.btn{display:inline-block;margin:6px 10px 6px 0;padding:12px 18px;border:1px solid var(--acc);border-radius:999px;text-decoration:none}
-.btn:hover{background:var(--acc);color:#000}footer{color:var(--mut);font-size:13px;margin-top:60px;border-top:1px solid #222;padding-top:18px}
-img{max-width:100%;height:auto;display:block;border-radius:12px}.logo{width:200px;margin:0 0 22px}.motto{color:var(--acc);font-size:20px;font-weight:700;margin:6px 0}.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;align-items:start}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body><div class="wrap">
+<body>
+<nav><a href="index.html" class="brand"><img src="icon.png" alt="">DMF Records</a><span><a href="#roster">Artists</a><a href="#services">Services</a><a href="#contact">Contact</a></span></nav><div class="wrap">
 <img class="logo" src="dmf-logo.png" alt="DMF Records eagle logo">
 <h1>DMF <span>Records</span></h1>
 <div class="tag">Columbus, Ohio / Fly Hoolie Entertainment &middot; Independent hip-hop since 2009</div>
@@ -62,18 +50,20 @@ img{max-width:100%;height:auto;display:block;border-radius:12px}.logo{width:200p
 <p class="motto">Built on ownership. Powered by innovation.</p>
 <p>An independent music and technology company rooted in culture and driven by infrastructure. DMF controls its masters, builds its own systems, and develops AI-powered tools to run distribution, analytics, and artist growth, all in-house. No middlemen. No shortcuts. Just execution, legacy, and long-term equity.</p>
 <div class="stats"><div><b>61</b><small>tracks released</small></div><div><b>49</b><small>releases since 2020</small></div><div><b>3,100+</b><small>YouTube subscribers</small></div><div><b>614</b><small>Columbus, Ohio</small></div></div>
-<h2>Roster</h2>
-<ul class="roster"><li>Big Homie Cash</li><li>Freezzo</li><li>OBMB Delo</li><li>Ellumf</li><li>Go Savage</li></ul>
+<h2 id="roster">Roster</h2>
+<div class="cards"><a class="card" href="big-homie-cash.html"><div class="avatar sm">BHC</div><b>Big Homie Cash</b><small>Founder, CEO &amp; Artist &middot; 16 tracks</small></a><a class="card" href="freezzo.html"><div class="avatar sm">F</div><b>Freezzo</b><small>Artist &middot; 25 tracks</small></a><a class="card" href="obmb-delo.html"><div class="avatar sm">OD</div><b>OBMB Delo</b><small>Artist · OBMB &middot; 8 tracks</small></a><a class="card" href="ellumf.html"><div class="avatar sm">E</div><b>Ellumf</b><small>Artist &middot; 5 tracks</small></a><a class="card" href="go-savage.html"><div class="avatar sm">GS</div><b>Go Savage</b><small>Artist &middot; 3 tracks</small></a></div>
 <h2>Listen &amp; Watch</h2>
 <a class="btn" href="https://www.youtube.com/channel/UCL9MF8QjU3G-BuCpofyFmnw">YouTube: DMF-MUSIC-PLATFORM</a>
 <a class="btn" href="https://open.spotify.com/artist/40z5aBKSs2Wtdori0baO1l">Big Homie Cash on Spotify</a>
+<a class="btn" href="https://www.facebook.com/Dmfrecords614/">Facebook</a>
+<a class="btn" href="https://gravatar.com/bighomiecash8346">Gravatar</a>
 <h2>Independent by Design</h2>
 <div class="two"><img src="independent.jpg" alt="Standing independent beside the major labels" loading="lazy"><img src="dmf-logo-story.jpg" alt="DMF Records Fly Hoolie ENT Co." loading="lazy"></div>
-<h2>Services for Artists</h2>
+<h2 id="services">Services for Artists</h2>
 <p>Video premieres on DMF-MUSIC-PLATFORM, release setup (metadata, splits, Content ID), and showcase bookings for Columbus artists.</p>
 <h2>Registered in Ohio</h2>
 <div class="two"><img src="ohio-registration.jpg" alt="DMF Records Fly Hoolie Ent Co., Ohio entity 3894950" loading="lazy"><p>DMF Records Fly Hoolie Ent Co. is an Ohio business, entity #3894950, filed April 22, 2016, Columbus, OH.</p></div>
-<h2>Contact</h2>
+<h2 id="contact">Contact</h2>
 <p>Booking, features and business: <a href="mailto:bighomiecash8346@gmail.com">bighomiecash8346@gmail.com</a></p>
 <footer>DMF Records Fly Hoolie Ent Co. &middot; Ohio corporation &middot; Columbus, OH &middot; &copy; 2026</footer>
 </div></body></html>
