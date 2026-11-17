@@ -24,3 +24,9 @@ nav .brand{margin:0;color:var(--fg);font-weight:800;display:flex;align-items:cen
 ul.disc{list-style:none;padding:0;margin:0;border-top:1px solid #222}ul.disc li{display:flex;gap:10px;align-items:baseline;padding:10px 0;border-bottom:1px solid #222}
 ul.disc li span{font-weight:600}ul.disc small{color:var(--mut)}ul.disc em{margin-left:auto;color:var(--mut);font-style:normal;font-size:14px}
 @media(max-width:520px){nav span a{margin-left:12px;font-size:14px}}
+
+img.avatar{object-fit:cover;padding:0;border:3px solid var(--acc)}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.dsp{display:flex;flex-wrap:wrap}.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.nums div{border:1px solid #2a2a2c;border-left:3px solid var(--acc);border-radius:10px;padding:14px 16px;font-weight:600}
+.asof{color:var(--mut);font-size:14px}.card img.avatar{width:56px;height:56px}
