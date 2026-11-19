@@ -30,3 +30,8 @@ img.avatar{object-fit:cover;padding:0;border:3px solid var(--acc)}
 .dsp{display:flex;flex-wrap:wrap}.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .nums div{border:1px solid #2a2a2c;border-left:3px solid var(--acc);border-radius:10px;padding:14px 16px;font-weight:600}
 .asof{color:var(--mut);font-size:14px}.card img.avatar{width:56px;height:56px}
+
+/* SEO pages */
+.h1sub{display:block;font-size:clamp(16px,2.6vw,22px);font-weight:600;color:var(--mut);letter-spacing:0;margin-top:6px}
+.bio{font-size:18px}iframe.spotify{border:0;border-radius:12px;margin:8px 0 10px;display:block}
+ul.rlist{padding-left:20px}ul.rlist li{margin:8px 0}ul.rlist a{color:var(--fg)}
