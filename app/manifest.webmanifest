@@ -1,0 +1,14 @@
+{
+  "name": "DMF Ecosystem — Da'Riyah OS",
+  "short_name": "DMF",
+  "description": "DMF Records / Fly Hoolie Ent. — distribution, legal, analytics, Shield and business in one app.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#060b18",
+  "theme_color": "#060b18",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
