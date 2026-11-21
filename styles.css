@@ -35,3 +35,23 @@ img.avatar{object-fit:cover;padding:0;border:3px solid var(--acc)}
 .h1sub{display:block;font-size:clamp(16px,2.6vw,22px);font-weight:600;color:var(--mut);letter-spacing:0;margin-top:6px}
 .bio{font-size:18px}iframe.spotify{border:0;border-radius:12px;margin:8px 0 10px;display:block}
 ul.rlist{padding-left:20px}ul.rlist li{margin:8px 0}ul.rlist a{color:var(--fg)}
+
+/* DMF Promo + live backend */
+.disclaimer{border:1px solid #2a2a2c;border-left:3px solid var(--acc);border-radius:10px;padding:14px 16px;color:var(--mut);font-size:15px}
+.pkgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.pkg{border:1px solid #2a2a2c;border-radius:14px;padding:18px;display:flex;flex-direction:column}.pkg:target{border-color:var(--acc)}
+.pkg h3{margin:4px 0 6px;font-size:19px;line-height:1.25}.pkg-ch{color:var(--acc);text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+.pkg .price b{font-size:28px;color:var(--acc)}.pkg .price small,.pkg .spend{color:var(--mut);font-size:14px}
+.pkg p{font-size:15px;margin:10px 0}.pkg ul{padding-left:18px;margin:0 0 6px;font-size:14px;color:var(--mut)}.pkg .fine{font-size:13px;color:var(--mut)}
+.pkg .btn{margin-top:auto;align-self:flex-start}
+.pform{display:grid;gap:14px;max-width:640px}.pform label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:15px}
+.pform small{color:var(--mut);font-weight:400}.row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.pform input,.pform select,.pform textarea{font:inherit;color:var(--fg);background:#141416;border:1px solid #2f2f33;border-radius:10px;padding:11px 12px;width:100%}
+.pform input:focus,.pform select:focus,.pform textarea:focus{outline:2px solid var(--acc);border-color:transparent}
+.pform label.check{flex-direction:row;align-items:flex-start;gap:10px;font-weight:400}.pform label.check input{width:18px;height:18px;margin-top:4px;accent-color:var(--acc);flex:none}
+.pform .err{color:#ff8a8a;font-size:13px;font-weight:400;min-height:0}.pform .err:empty{display:none}
+.pform button.btn{background:var(--acc);color:#000;font:inherit;font-weight:700;cursor:pointer;justify-self:start}.pform button.btn:disabled{opacity:.6;cursor:wait}
+.form-status{margin:0;font-size:14px}.form-status.bad{color:#ff8a8a}.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.sent{border:1px solid var(--acc);border-radius:12px;padding:18px;max-width:640px}
+.live-note{color:var(--mut);font-size:13px}
+@media(max-width:700px){nav{flex-wrap:wrap;gap:6px}nav span{display:flex;flex-wrap:wrap;gap:4px 14px}nav span a{margin-left:0}}
